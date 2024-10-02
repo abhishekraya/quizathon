@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <h1>Quiz</h1>
       <QuizContext.Provider value={{ gameState, setGameState, score,setScore }}>
+        Score={score}
         {gameState === 'menu' && <MainMenu />}
         {gameState === 'quiz' && <Quiz />}
         {gameState === 'endScreen' && <EndScreen />}
