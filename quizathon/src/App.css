@@ -1,0 +1,48 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Menu,
+.quiz
+{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Menu button{
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: rgb(13, 180, 236);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.options button{
+  width:300px;
+  height:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgb(17, 147, 253);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  text-align: center;
+
+}
+.submit{
+  margin-top: 50px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  background-color: rgba(55, 111, 233, 0.159);
+}
